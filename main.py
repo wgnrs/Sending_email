@@ -24,7 +24,7 @@ print(avarage_ticket)
 # define the location of the brazil
 locale.setlocale(locale.LC_ALL, 'pt_BR.utf-8')
 
-# creating a function the format the collumn
+# creating a function that format the collumn
 def format_collum(value):
     return locale.currency(value, grouping=True)
 
